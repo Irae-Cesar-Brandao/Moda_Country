@@ -1,0 +1,45 @@
+
+body {
+            background: -webkit-gradient(linear, left top, right top, from(#CCCCCC), to(#000000)) no-repeat;
+     
+        }
+
+/*COR MENU*/
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+
+.mainmenubtn {
+    background-color: #236B8E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:10px;
+
+}
+.mainmenubtn:hover {
+    background-color: green;
+
+ }
+.dropdown {
+    position: fixed;
+    display: inline-block;
+     z-index: 1;
+}
+
+
+
+/*MAIN MENU - DEFINIÇÕES*/
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
